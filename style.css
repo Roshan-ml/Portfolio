@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(60deg,#0e526f,#214864);
+    background-color: #081b29;    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+}
+.header{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     padding: 20px 10%;
+     background-color:transparent;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+
+    font-size: 20px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color:blueviolet;
+}
+
+.Home{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    
+    
+}
+
+.Home-cont{
+    color: #ededed;
+    padding: 10px;
+    max-width: 500px;
+    height: 200px;
+
+    
+}
+.Home-cont h1{
+    text-shadow: rgb(255, 253, 247) 1px 0 5px;
+    font-size: 60px;
+    font-weight:700 ;
+    padding-bottom: 10px;
+}
+.Home-cont p {
+    font-size: 16px;
+    font-weight: 300;
+}
+.img{
+    background-color:transparent;
+    height: 500px;
+    width: 500px;
+    margin-right: 100px;
+}
+.img img{
+    padding-right: 500px;
+    padding-bottom: 500px;
+}
